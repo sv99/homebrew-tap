@@ -3,18 +3,22 @@ homebrew-tap
 
 This repository contains my formulae rejected from [Homebrew](http://brew.sh).
 
-Installing homebrew-tap formulae
---------------------------------
-
 ```Bash
 # to tap the repository
-$ brew tap sv99
+$ brew tap sv99/tap
 
-# to install sonar-build-wrapper
-$ brew install sonar-build-wrapper
+# to untap
+$ brew untap sv99/tap
 ```
 
-This will pull in the prerequisites `avr-binutils` and `avr-gcc`.
+Formulae
+--------
+
+**sonar-build-wrapper**
+
+build-wrapper for sonarcube with C/C++ pluging.
+
+Homebrew can't include not open-source projects.
 
 Docs
 ----
