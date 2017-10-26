@@ -20,6 +20,10 @@ build-wrapper for sonarcube with C/C++ pluging.
 
 Homebrew can't include not open-source projects.
 
+**apg**
+
+Removed formula apg.
+
 Docs
 ----
 
