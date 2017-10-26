@@ -2,7 +2,7 @@ class Apg < Formula
   desc "Tool set for random password generation"
   homepage "http://www.adel.nursat.kz/apg/"
   url "https://github.com/sv99/apg/archive/v2.2.3.tar.gz"
-  sha256 "69c9facde63958ad0a7630055f34d753901733d55ee759d08845a4eda2ba7dba"
+  sha256 "202cfe80cb9b1902407dedfe1ba53d1c0673affa3d001a69db66c23fc84797cd"
 
   def install
     system "make", "standalone",
